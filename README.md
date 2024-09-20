@@ -46,4 +46,8 @@ func main() {
 }
 
 ```
-TQfuQzEpzvs53bP9AgoPqa2DjaKDrYiXoe
+BenchmarkTrivialBase58Encoding-4          123063              9568 ns/op
+BenchmarkFastBase58Encoding-4             690040              1598 ns/op
+
+BenchmarkTrivialBase58Decoding-4          275216              4301 ns/op
+BenchmarkFastBase58Decoding-4            1812105               658 ns/op
